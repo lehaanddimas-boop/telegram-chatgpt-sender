@@ -70,4 +70,4 @@ async def send_message(text: str) -> dict:
     }
 
 
-app = mcp.streamable_http_app()
+app = mcp.streamable_http_app(host="0.0.0.0")
